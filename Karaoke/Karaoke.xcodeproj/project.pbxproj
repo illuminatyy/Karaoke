@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC5E60428230FEF0079D0C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E60328230FEF0079D0C4 /* AppDelegate.swift */; };
+		CCC5E60628230FEF0079D0C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E60528230FEF0079D0C4 /* ViewController.swift */; };
+		CCC5E60928230FEF0079D0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC5E60728230FEF0079D0C4 /* Main.storyboard */; };
+		CCC5E60B28230FF10079D0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC5E60A28230FF10079D0C4 /* Assets.xcassets */; };
+		CCC5E60E28230FF10079D0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC5E60C28230FF10079D0C4 /* LaunchScreen.storyboard */; };
+		CCC5E61828230FF10079D0C4 /* KaraokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E61728230FF10079D0C4 /* KaraokeTests.swift */; };
+		CCC5E62228230FF10079D0C4 /* KaraokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E62128230FF10079D0C4 /* KaraokeUITests.swift */; };
+		CCC5E62428230FF10079D0C4 /* KaraokeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC5E62328230FF10079D0C4 /* KaraokeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCC5E61428230FF10079D0C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC5E5F828230FEE0079D0C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC5E5FF28230FEF0079D0C4;
+			remoteInfo = Karaoke;
+		};
+		CCC5E61E28230FF10079D0C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC5E5F828230FEE0079D0C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC5E5FF28230FEF0079D0C4;
+			remoteInfo = Karaoke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC5E60028230FEF0079D0C4 /* Karaoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC5E60328230FEF0079D0C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCC5E60528230FEF0079D0C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCC5E60828230FEF0079D0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCC5E60A28230FF10079D0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCC5E60D28230FF10079D0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCC5E61328230FF10079D0C4 /* KaraokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC5E61728230FF10079D0C4 /* KaraokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeTests.swift; sourceTree = "<group>"; };
+		CCC5E61D28230FF10079D0C4 /* KaraokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC5E62128230FF10079D0C4 /* KaraokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeUITests.swift; sourceTree = "<group>"; };
+		CCC5E62328230FF10079D0C4 /* KaraokeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC5E5FD28230FEF0079D0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E61028230FF10079D0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E61A28230FF10079D0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC5E5F728230FEE0079D0C4 = {
+			isa = PBXGroup;
+			children = (
+				CCC5E60228230FEF0079D0C4 /* Karaoke */,
+				CCC5E61628230FF10079D0C4 /* KaraokeTests */,
+				CCC5E62028230FF10079D0C4 /* KaraokeUITests */,
+				CCC5E60128230FEF0079D0C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC5E60128230FEF0079D0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E60028230FEF0079D0C4 /* Karaoke.app */,
+				CCC5E61328230FF10079D0C4 /* KaraokeTests.xctest */,
+				CCC5E61D28230FF10079D0C4 /* KaraokeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC5E60228230FEF0079D0C4 /* Karaoke */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E60328230FEF0079D0C4 /* AppDelegate.swift */,
+				CCC5E60528230FEF0079D0C4 /* ViewController.swift */,
+				CCC5E60728230FEF0079D0C4 /* Main.storyboard */,
+				CCC5E60A28230FF10079D0C4 /* Assets.xcassets */,
+				CCC5E60C28230FF10079D0C4 /* LaunchScreen.storyboard */,
+			);
+			path = Karaoke;
+			sourceTree = "<group>";
+		};
+		CCC5E61628230FF10079D0C4 /* KaraokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E61728230FF10079D0C4 /* KaraokeTests.swift */,
+			);
+			path = KaraokeTests;
+			sourceTree = "<group>";
+		};
+		CCC5E62028230FF10079D0C4 /* KaraokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCC5E62128230FF10079D0C4 /* KaraokeUITests.swift */,
+				CCC5E62328230FF10079D0C4 /* KaraokeUITestsLaunchTests.swift */,
+			);
+			path = KaraokeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC5E5FF28230FEF0079D0C4 /* Karaoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC5E62728230FF10079D0C4 /* Build configuration list for PBXNativeTarget "Karaoke" */;
+			buildPhases = (
+				CCC5E5FC28230FEF0079D0C4 /* Sources */,
+				CCC5E5FD28230FEF0079D0C4 /* Frameworks */,
+				CCC5E5FE28230FEF0079D0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Karaoke;
+			productName = Karaoke;
+			productReference = CCC5E60028230FEF0079D0C4 /* Karaoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC5E61228230FF10079D0C4 /* KaraokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC5E62A28230FF10079D0C4 /* Build configuration list for PBXNativeTarget "KaraokeTests" */;
+			buildPhases = (
+				CCC5E60F28230FF10079D0C4 /* Sources */,
+				CCC5E61028230FF10079D0C4 /* Frameworks */,
+				CCC5E61128230FF10079D0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC5E61528230FF10079D0C4 /* PBXTargetDependency */,
+			);
+			name = KaraokeTests;
+			productName = KaraokeTests;
+			productReference = CCC5E61328230FF10079D0C4 /* KaraokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCC5E61C28230FF10079D0C4 /* KaraokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC5E62D28230FF10079D0C4 /* Build configuration list for PBXNativeTarget "KaraokeUITests" */;
+			buildPhases = (
+				CCC5E61928230FF10079D0C4 /* Sources */,
+				CCC5E61A28230FF10079D0C4 /* Frameworks */,
+				CCC5E61B28230FF10079D0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC5E61F28230FF10079D0C4 /* PBXTargetDependency */,
+			);
+			name = KaraokeUITests;
+			productName = KaraokeUITests;
+			productReference = CCC5E61D28230FF10079D0C4 /* KaraokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC5E5F828230FEE0079D0C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CCC5E5FF28230FEF0079D0C4 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CCC5E61228230FF10079D0C4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CCC5E5FF28230FEF0079D0C4;
+					};
+					CCC5E61C28230FF10079D0C4 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CCC5E5FF28230FEF0079D0C4;
+					};
+				};
+			};
+			buildConfigurationList = CCC5E5FB28230FEE0079D0C4 /* Build configuration list for PBXProject "Karaoke" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC5E5F728230FEE0079D0C4;
+			productRefGroup = CCC5E60128230FEF0079D0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC5E5FF28230FEF0079D0C4 /* Karaoke */,
+				CCC5E61228230FF10079D0C4 /* KaraokeTests */,
+				CCC5E61C28230FF10079D0C4 /* KaraokeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC5E5FE28230FEF0079D0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC5E60E28230FF10079D0C4 /* LaunchScreen.storyboard in Resources */,
+				CCC5E60B28230FF10079D0C4 /* Assets.xcassets in Resources */,
+				CCC5E60928230FEF0079D0C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E61128230FF10079D0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E61B28230FF10079D0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC5E5FC28230FEF0079D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC5E60628230FEF0079D0C4 /* ViewController.swift in Sources */,
+				CCC5E60428230FEF0079D0C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E60F28230FF10079D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC5E61828230FF10079D0C4 /* KaraokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC5E61928230FF10079D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC5E62228230FF10079D0C4 /* KaraokeUITests.swift in Sources */,
+				CCC5E62428230FF10079D0C4 /* KaraokeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC5E61528230FF10079D0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC5E5FF28230FEF0079D0C4 /* Karaoke */;
+			targetProxy = CCC5E61428230FF10079D0C4 /* PBXContainerItemProxy */;
+		};
+		CCC5E61F28230FF10079D0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC5E5FF28230FEF0079D0C4 /* Karaoke */;
+			targetProxy = CCC5E61E28230FF10079D0C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCC5E60728230FEF0079D0C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC5E60828230FEF0079D0C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC5E60C28230FF10079D0C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC5E60D28230FF10079D0C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCC5E62528230FF10079D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Debug;
+		};
+		CCC5E62628230FF10079D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCC5E62828230FF10079D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3769X94PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "naty.brocca-gmail.com.Karaoke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		CCC5E62928230FF10079D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3769X94PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "naty.brocca-gmail.com.Karaoke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		CCC5E62B28230FF10079D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3769X94PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "naty.brocca-gmail.com.KaraokeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaoke.app/Karaoke";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Debug;
+		};
+		CCC5E62C28230FF10079D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3769X94PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "naty.brocca-gmail.com.KaraokeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaoke.app/Karaoke";
+				TVOS_DEPLOYMENT_TARGET = 15.4;
+			};
+			name = Release;
+		};
+		CCC5E62E28230FF10079D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3769X94PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "naty.brocca-gmail.com.KaraokeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Karaoke;
+			};
+			name = Debug;
+		};
+		CCC5E62F28230FF10079D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3769X94PP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "naty.brocca-gmail.com.KaraokeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Karaoke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC5E5FB28230FEE0079D0C4 /* Build configuration list for PBXProject "Karaoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC5E62528230FF10079D0C4 /* Debug */,
+				CCC5E62628230FF10079D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC5E62728230FF10079D0C4 /* Build configuration list for PBXNativeTarget "Karaoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC5E62828230FF10079D0C4 /* Debug */,
+				CCC5E62928230FF10079D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC5E62A28230FF10079D0C4 /* Build configuration list for PBXNativeTarget "KaraokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC5E62B28230FF10079D0C4 /* Debug */,
+				CCC5E62C28230FF10079D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC5E62D28230FF10079D0C4 /* Build configuration list for PBXNativeTarget "KaraokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC5E62E28230FF10079D0C4 /* Debug */,
+				CCC5E62F28230FF10079D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC5E5F828230FEE0079D0C4 /* Project object */;
+}
